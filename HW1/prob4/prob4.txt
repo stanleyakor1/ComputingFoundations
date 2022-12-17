@@ -1,0 +1,17 @@
+(1) XxXxXx
+This is a valid variable name because it is  composed of alphabets( Both upper and lower cases) 
+
+(2) HOMEDIR
+Is a system variable which is maintained by linux, in general, all shell variable will have their names in capital letters.
+
+(3) file_name
+This is a valid variable name because it consists of alphabets and an underscore. Usually, special characters such as $,%,&, etc. cannot be used in a variable name.
+
+(5) x09
+This is a valid variable name because it is composed of a combination of a letter and numbers, with the letter being the first character.
+
+(5) file1
+This is a valid variable name since it is composed of a combination of letters and a number.
+
+(6) Slimit
+This is a valid variable name since both upper and lower case letters can be merged in a variable name.

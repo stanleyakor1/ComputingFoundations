@@ -1,0 +1,6 @@
+cat infile |sort| wc −l > infile
+
+The result will be zero.
+
+Reason:
+Directing the standard output from a pipe command on Linux to the same input file will lead to unexpected behaviour because all the Linux pipe commands are implemented simultaneously. The shell prepares the output redirection before running the code. The commands after 'cat' will overwrite the infile, and thus the result from 'wc -l' will be zero.

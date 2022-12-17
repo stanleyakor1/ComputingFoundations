@@ -1,0 +1,32 @@
+(1) echo *** error ***
+This command prints all the files in the current working directory twice and an additional error file in their middle.
+
+(2) echo ' I s 5 * 4 > 18 ? '
+   Output: I s 5 * 4 > 18 ? 
+
+(3) echo $x
+   Output: This command prints the files in the working directory 
+
+(4) echo What is your name?
+    Output: What is your name?
+
+(5) echo $y
+    Output: ?
+
+(6) echo "$y"
+    Output: ?
+
+(7) echo \*\*\*
+   Output: ***
+
+(8) echo $z | wc -l
+   Output: 1
+
+(9) echo \$$symbol
+   Output: $>
+
+(10) echo hello $symbol out
+    Output: hello > out
+
+
+

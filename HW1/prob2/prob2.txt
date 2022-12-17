@@ -1,0 +1,16 @@
+(a) ls $docs
+(b) cp $let/* $prop
+(c) mv $let/* .
+(d) ls $docs/memos | wc -l
+
+1. ls $let/..
+This command list the contents of the parent folder (documents) which houses the letter directory.
+
+2. cat $prop/ sys.A >> $ let /no.JSK
+This command appends the content of the file sys.A to the end of the file no.JSK
+
+3. echo $let/*
+This command produces the directory path to each file in the $let (letter) directory.
+
+4. cp $let/no.JSK $progs
+This command copies the no.JSK file in the $let directory  into the $progs directory.

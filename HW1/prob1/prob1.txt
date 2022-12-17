@@ -1,0 +1,30 @@
+1. ls | wc -1
+This commands list the number of files in the current working directory.
+
+2.  rm ???
+The 'rm' command is used to delete files. Here, the command will delete any file named with three characters fromm the current directory.
+
+3. who | wc -l
+This command counts the number of logged in users.
+
+
+4. mv progs/* /users/steve/backup
+This command moves all the files in the folder "progs" to a new folder "backup" (backup) specified by the directory: /users/steve/backup 
+
+5. ls *.c | wc -l
+This command counts the number of files in a working directory that has a .c extension.
+
+6. who | sort
+This command sorts all the log in users in alphabetical order.
+
+7. cd; pwd
+This command moves the user from a directory to the home directory and prints the home directory path.
+
+8. cp memol ..
+This command copies the file "memol" to the parent directory.
+
+9. date +%T
+This command displays the time in hour: minute: seconds format.
+
+10. plotdata 2>errors &
+This command saves the standard error from the executable file "plotdata" to the file "errors". Furthermore, the file runs in the background, thereby allowing the user to perform other operations on the terminal.
